@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:jpa="http://www.springframework.org/schema/data/jpa" xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:jaxws="http://cxf.apache.org/jaxws"
+	xsi:schemaLocation="
+						http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+						http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+						http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd
+						http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+						http://www.springframework.org/schema/data/jpa 
+						http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
+						http://cxf.apache.org/jaxws 
+						http://cxf.apache.org/schemas/jaxws.xsd">
+
+	<!-- 连接池 -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="driverClass" value="oracle.jdbc.driver.OracleDriver" />
+		<property name="jdbcUrl" value="jdbc:oracle:thin:@192.168.253.128:1521:ORCL" />
+		<property name="user" value="jzp" />
+		<property name="password" value="930110" /><!-- cz258_05 -->
+	</bean>
+	<!-- <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"> 
+		<property name="driverClass" value="oracle.jdbc.driver.OracleDriver" /> <property 
+		name="jdbcUrl" value="jdbc:oracle:thin:@192.168.126.128:1521:ORCL" /> <property 
+		name="user" value="bos258" /> <property name="password" value="bos258" /> 
+		</bean> -->
+
+	<!-- spring整合JPA -->
+	<bean id="entityManagerFactory"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="packagesToScan" value="cn.itcast.bos.domain" />
+		<!-- 指定持久层提供者为Hibernate -->
+		<property name="persistenceProvider">
+			<bean class="org.hibernate.ejb.HibernatePersistence" />
+		</property>
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+				<!-- 自动建表 -->
+				<property name="generateDdl" value="true" /><!-- 相当于hbm2ddl.auto -->
+				<property name="database" value="ORACLE" />
+				<property name="databasePlatform" value="org.hibernate.dialect.Oracle10gDialect" />
+				<property name="showSql" value="true" />
+			</bean>
+		</property>
+		<property name="jpaDialect">
+			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaDialect" />
+		</property>
+	</bean>
+
+	<!-- 事务管理器 -->
+	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+	</bean>
+
+	<!-- 组件扫描 @Service @Controller @Repository -->
+	<context:component-scan base-package="cn.itcast.bos.service,cn.itcast.bos.web" />
+
+	<!-- 事务注解支持 -->
+	<tx:annotation-driven transaction-manager="transactionManager"
+		proxy-target-class="true" />
+
+	<!-- 整合 spring data jpa -->
+	<jpa:repositories base-package="cn.itcast.bos.dao" />
+	<!-- 配置crm客户端标签 -->
+
+	<jaxws:client
+		id="customerService"
+		serviceClass="cn.itcast.crm.service.ICustomerService"
+		address="http://localhost:8085/crm_management/services/customer"/>
+
+
+
+	<!-- 配置订单服务接口标签 -->
+	<jaxws:server address="/order"
+		serviceClass="cn.itcast.bos.service.IOrderRemoteService">
+		<jaxws:serviceBean>
+			<ref bean="orderRemoteService" />
+		</jaxws:serviceBean>
+	</jaxws:server>
+	<!-- 配置订单服务实现类bean -->
+	<bean id="orderRemoteService" class="cn.itcast.bos.service.impl.OrderRemoteServiceImpl" />
+	<!-- 配置shiro过滤器工厂 -->
+	<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+		<!-- 注入安全管理器 ：securityManager -->
+		<property name="securityManager" ref="securityManager" />
+		<!-- 注入未登录或登录失败跳转的界面：loginUrl -->
+		<property name="loginUrl" value="/login.jsp" />
+		<!-- 注入登录成功跳转界面：successUrl -->
+		<property name="successUrl" value="/index.jsp" />
+		<!-- 注入权限不足提示界面：unauthorizedUrl -->
+		<property name="unauthorizedUrl" value="/unauthorizedUrl.jsp" />
+		<!-- 注入校验规则：filterChainDefinitions -->
+		<property name="filterChainDefinitions">
+			<value>
+				/login.jsp = anon
+				/js/** = anon
+				/css/** = anon
+				/services/** = anon
+				/images/** = anon
+				/validatecode.jsp* = anon
+				/userAction_login.action = anon
+				/pages/base/courier.jsp = perms["courier"]
+				/** = authc
+			</value>
+		</property>
+	</bean>
+	<!-- 配置安全管理器 -->
+	<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+		<property name="realm" ref="bosLoginRealm" />
+		<!-- 注入缓存管理器 -->
+		<property name="cacheManager" ref="ehcacheManager" />
+	</bean>
+	<!-- 配置realm的bean -->
+	<bean id="bosLoginRealm" class="cn.itcast.bos.realm.BosLoginRealm" />
+	<!-- 配置自动代理类 -->
+	<bean id="defaultAdvisorAutoProxyCreator"
+		class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator">
+		<!-- 两种创建自动代理的方式： 第一种：cglib动态代理，基于继承实现 UserAction : 目标类 ProxyAction extends 
+			UserAction：代理类 第二种：java动态代理，基于接口实现 UserAction implements ModelDriven<User>：目标类 
+			ProxyAction implements ModelDriven<User> :代理类 proxyTargetClass:设置生成代理的方式，true-第一种；false-第二种，默认值是false -->
+		<property name="proxyTargetClass" value="true" />
+	</bean>
+	<!-- 配置切面 -->
+	<bean id="authorizationAttributeSourceAdvisor"
+		class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+		<property name="securityManager" ref="securityManager" />
+	</bean>
+	<!-- 配置缓存管理器bean -->
+	<bean id="ehcacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+		<property name="cacheManagerConfigFile" value="classpath:ehcache.xml" />
+	</bean>
+	<!-- 配置任务类 -->
+	<bean id="smsJob" class="cn.itcast.bos.web.jobs.SmsJob" />
+	<!-- 配置任务描述类 -->
+	<bean id="smsJobDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<!-- 注入要执行的任务类 -->
+		<property name="targetObject" ref="smsJob" />
+		<!-- 注入要执行了任务类的方法 -->
+		<property name="targetMethod" value="sendMsg" />
+	</bean>
+	<!-- 配置任务触发器 -->
+	<bean id="smsTrigger"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<!-- 注入要执行的任务描述类 -->
+		<property name="jobDetail" ref="smsJobDetail" />
+		<!-- 注入cron表达式：10秒一次 -->
+		<property name="cronExpression" value="0 0 12,16 * * ?" />
+	</bean>
+	<!-- 配置调度容器 -->
+	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<ref bean="smsTrigger" />
+			</list>
+		</property>
+	</bean>
+</beans>

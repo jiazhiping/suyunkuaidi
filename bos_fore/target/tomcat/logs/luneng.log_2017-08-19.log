@@ -1,0 +1,384 @@
+2017-08-19 17:28:40,601 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization started>
+2017-08-19 17:28:40,723 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing Root WebApplicationContext: startup date [Sat Aug 19 17:28:40 CST 2017]; root of context hierarchy>
+2017-08-19 17:28:40,770 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from class path resource [applicationContext.xml]>
+2017-08-19 17:28:41,394 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - <JSR-330 'javax.inject.Inject' annotation found and supported for autowiring>
+2017-08-19 17:28:42,020 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization completed in 1402 ms>
+2017-08-19 17:28:42,251 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-default.xml]>
+2017-08-19 17:28:42,335 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-plugin.xml]>
+2017-08-19 17:28:42,356 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Unable to locate configuration files of the name struts.xml, skipping>
+2017-08-19 17:28:42,356 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts.xml]>
+2017-08-19 17:28:42,360 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)>
+2017-08-19 17:28:42,360 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)>
+2017-08-19 17:28:42,361 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)>
+2017-08-19 17:28:42,362 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)>
+2017-08-19 17:28:42,363 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)>
+2017-08-19 17:28:42,363 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)>
+2017-08-19 17:28:42,363 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)>
+2017-08-19 17:28:42,363 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)>
+2017-08-19 17:28:42,363 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)>
+2017-08-19 17:28:42,363 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)>
+2017-08-19 17:28:42,363 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)>
+2017-08-19 17:28:42,363 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)>
+2017-08-19 17:28:42,363 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)>
+2017-08-19 17:28:42,363 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)>
+2017-08-19 17:28:42,363 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)>
+2017-08-19 17:28:42,363 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)>
+2017-08-19 17:28:42,364 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)>
+2017-08-19 17:28:42,364 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)>
+2017-08-19 17:28:42,364 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)>
+2017-08-19 17:28:42,364 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.util.ContentTypeMatcher)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.util.ContentTypeMatcher)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)>
+2017-08-19 17:28:42,365 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)>
+2017-08-19 17:28:42,366 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)>
+2017-08-19 17:28:42,366 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)>
+2017-08-19 17:28:42,387 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <Initializing Struts-Spring integration...>
+2017-08-19 17:28:42,387 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <Initializing Struts-Spring integration...>
+2017-08-19 17:28:42,388 INFO [com.opensymphony.xwork2.spring.SpringObjectFactory] - <Setting autowire strategy to name>
+2017-08-19 17:28:42,388 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <... initialized Struts-Spring integration successfully>
+2017-08-19 17:28:42,388 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <... initialized Struts-Spring integration successfully>
+2017-08-19 17:29:07,248 INFO [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] - <Creating Service {http://service.crm.itcast.cn/}ICustomerServiceService from class cn.itcast.crm.service.ICustomerService>
+2017-08-19 17:29:07,248 INFO [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] - <Creating Service {http://service.crm.itcast.cn/}ICustomerServiceService from class cn.itcast.crm.service.ICustomerService>
+2017-08-19 17:30:05,928 INFO [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] - <Creating Service {http://service.bos.itcast.cn/}IOrderRemoteServiceService from class cn.itcast.bos.service.IOrderRemoteService>
+2017-08-19 17:30:05,928 INFO [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] - <Creating Service {http://service.bos.itcast.cn/}IOrderRemoteServiceService from class cn.itcast.bos.service.IOrderRemoteService>
+2017-08-19 17:39:56,206 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization started>
+2017-08-19 17:39:56,335 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing Root WebApplicationContext: startup date [Sat Aug 19 17:39:56 CST 2017]; root of context hierarchy>
+2017-08-19 17:39:56,406 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from class path resource [applicationContext.xml]>
+2017-08-19 17:39:57,153 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - <JSR-330 'javax.inject.Inject' annotation found and supported for autowiring>
+2017-08-19 17:39:57,914 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization completed in 1707 ms>
+2017-08-19 17:39:58,136 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-default.xml]>
+2017-08-19 17:39:58,224 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-plugin.xml]>
+2017-08-19 17:39:58,245 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Unable to locate configuration files of the name struts.xml, skipping>
+2017-08-19 17:39:58,245 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts.xml]>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)>
+2017-08-19 17:39:58,248 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)>
+2017-08-19 17:39:58,249 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)>
+2017-08-19 17:39:58,250 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)>
+2017-08-19 17:39:58,252 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)>
+2017-08-19 17:39:58,252 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)>
+2017-08-19 17:39:58,252 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)>
+2017-08-19 17:39:58,252 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)>
+2017-08-19 17:39:58,252 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)>
+2017-08-19 17:39:58,252 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)>
+2017-08-19 17:39:58,252 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)>
+2017-08-19 17:39:58,252 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)>
+2017-08-19 17:39:58,252 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)>
+2017-08-19 17:39:58,252 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.util.ContentTypeMatcher)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.util.ContentTypeMatcher)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)>
+2017-08-19 17:39:58,253 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)>
+2017-08-19 17:39:58,274 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <Initializing Struts-Spring integration...>
+2017-08-19 17:39:58,274 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <Initializing Struts-Spring integration...>
+2017-08-19 17:39:58,275 INFO [com.opensymphony.xwork2.spring.SpringObjectFactory] - <Setting autowire strategy to name>
+2017-08-19 17:39:58,275 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <... initialized Struts-Spring integration successfully>
+2017-08-19 17:39:58,275 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <... initialized Struts-Spring integration successfully>
+2017-08-19 19:22:01,524 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization started>
+2017-08-19 19:22:01,657 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing Root WebApplicationContext: startup date [Sat Aug 19 19:22:01 CST 2017]; root of context hierarchy>
+2017-08-19 19:22:01,718 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from class path resource [applicationContext.xml]>
+2017-08-19 19:22:02,263 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - <JSR-330 'javax.inject.Inject' annotation found and supported for autowiring>
+2017-08-19 19:22:02,916 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization completed in 1391 ms>
+2017-08-19 19:22:03,153 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-default.xml]>
+2017-08-19 19:22:03,244 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-plugin.xml]>
+2017-08-19 19:22:03,267 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Unable to locate configuration files of the name struts.xml, skipping>
+2017-08-19 19:22:03,267 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts.xml]>
+2017-08-19 19:22:03,272 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)>
+2017-08-19 19:22:03,272 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)>
+2017-08-19 19:22:03,272 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)>
+2017-08-19 19:22:03,272 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)>
+2017-08-19 19:22:03,272 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)>
+2017-08-19 19:22:03,272 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)>
+2017-08-19 19:22:03,272 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)>
+2017-08-19 19:22:03,272 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)>
+2017-08-19 19:22:03,272 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)>
+2017-08-19 19:22:03,272 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)>
+2017-08-19 19:22:03,272 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)>
+2017-08-19 19:22:03,272 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)>
+2017-08-19 19:22:03,273 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)>
+2017-08-19 19:22:03,273 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)>
+2017-08-19 19:22:03,273 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)>
+2017-08-19 19:22:03,273 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)>
+2017-08-19 19:22:03,273 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)>
+2017-08-19 19:22:03,273 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)>
+2017-08-19 19:22:03,273 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)>
+2017-08-19 19:22:03,273 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)>
+2017-08-19 19:22:03,273 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)>
+2017-08-19 19:22:03,273 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)>
+2017-08-19 19:22:03,274 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)>
+2017-08-19 19:22:03,274 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)>
+2017-08-19 19:22:03,274 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)>
+2017-08-19 19:22:03,274 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)>
+2017-08-19 19:22:03,274 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)>
+2017-08-19 19:22:03,274 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)>
+2017-08-19 19:22:03,274 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)>
+2017-08-19 19:22:03,274 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)>
+2017-08-19 19:22:03,274 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)>
+2017-08-19 19:22:03,274 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)>
+2017-08-19 19:22:03,274 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)>
+2017-08-19 19:22:03,274 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)>
+2017-08-19 19:22:03,274 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)>
+2017-08-19 19:22:03,274 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)>
+2017-08-19 19:22:03,275 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)>
+2017-08-19 19:22:03,275 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)>
+2017-08-19 19:22:03,275 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)>
+2017-08-19 19:22:03,275 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)>
+2017-08-19 19:22:03,275 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)>
+2017-08-19 19:22:03,275 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)>
+2017-08-19 19:22:03,275 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)>
+2017-08-19 19:22:03,275 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)>
+2017-08-19 19:22:03,276 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)>
+2017-08-19 19:22:03,276 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)>
+2017-08-19 19:22:03,276 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)>
+2017-08-19 19:22:03,276 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)>
+2017-08-19 19:22:03,276 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)>
+2017-08-19 19:22:03,276 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)>
+2017-08-19 19:22:03,276 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)>
+2017-08-19 19:22:03,276 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)>
+2017-08-19 19:22:03,278 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)>
+2017-08-19 19:22:03,278 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)>
+2017-08-19 19:22:03,278 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)>
+2017-08-19 19:22:03,278 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.util.ContentTypeMatcher)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.util.ContentTypeMatcher)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)>
+2017-08-19 19:22:03,279 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)>
+2017-08-19 19:22:03,280 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)>
+2017-08-19 19:22:03,280 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)>
+2017-08-19 19:22:03,304 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <Initializing Struts-Spring integration...>
+2017-08-19 19:22:03,304 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <Initializing Struts-Spring integration...>
+2017-08-19 19:22:03,304 INFO [com.opensymphony.xwork2.spring.SpringObjectFactory] - <Setting autowire strategy to name>
+2017-08-19 19:22:03,304 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <... initialized Struts-Spring integration successfully>
+2017-08-19 19:22:03,304 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <... initialized Struts-Spring integration successfully>
+2017-08-19 19:26:51,806 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization started>
+2017-08-19 19:26:51,907 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing Root WebApplicationContext: startup date [Sat Aug 19 19:26:51 CST 2017]; root of context hierarchy>
+2017-08-19 19:26:51,960 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from class path resource [applicationContext.xml]>
+2017-08-19 19:26:52,471 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - <JSR-330 'javax.inject.Inject' annotation found and supported for autowiring>
+2017-08-19 19:26:53,109 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization completed in 1303 ms>
+2017-08-19 19:26:53,339 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-default.xml]>
+2017-08-19 19:26:53,423 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-plugin.xml]>
+2017-08-19 19:26:53,449 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Unable to locate configuration files of the name struts.xml, skipping>
+2017-08-19 19:26:53,449 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts.xml]>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)>
+2017-08-19 19:26:53,452 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)>
+2017-08-19 19:26:53,453 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)>
+2017-08-19 19:26:53,453 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)>
+2017-08-19 19:26:53,453 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)>
+2017-08-19 19:26:53,453 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)>
+2017-08-19 19:26:53,453 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)>
+2017-08-19 19:26:53,453 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)>
+2017-08-19 19:26:53,453 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)>
+2017-08-19 19:26:53,453 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)>
+2017-08-19 19:26:53,453 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)>
+2017-08-19 19:26:53,453 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)>
+2017-08-19 19:26:53,453 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)>
+2017-08-19 19:26:53,453 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)>
+2017-08-19 19:26:53,453 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)>
+2017-08-19 19:26:53,453 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)>
+2017-08-19 19:26:53,454 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)>
+2017-08-19 19:26:53,456 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)>
+2017-08-19 19:26:53,456 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)>
+2017-08-19 19:26:53,456 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)>
+2017-08-19 19:26:53,456 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)>
+2017-08-19 19:26:53,456 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)>
+2017-08-19 19:26:53,456 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.util.ContentTypeMatcher)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.util.ContentTypeMatcher)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)>
+2017-08-19 19:26:53,457 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)>
+2017-08-19 19:26:53,458 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)>
+2017-08-19 19:26:53,458 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)>
+2017-08-19 19:26:53,474 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <Initializing Struts-Spring integration...>
+2017-08-19 19:26:53,474 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <Initializing Struts-Spring integration...>
+2017-08-19 19:26:53,474 INFO [com.opensymphony.xwork2.spring.SpringObjectFactory] - <Setting autowire strategy to name>
+2017-08-19 19:26:53,474 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <... initialized Struts-Spring integration successfully>
+2017-08-19 19:26:53,474 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <... initialized Struts-Spring integration successfully>
+2017-08-19 19:28:19,174 INFO [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] - <Creating Service {http://service.crm.itcast.cn/}ICustomerServiceService from class cn.itcast.crm.service.ICustomerService>
+2017-08-19 19:28:19,174 INFO [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] - <Creating Service {http://service.crm.itcast.cn/}ICustomerServiceService from class cn.itcast.crm.service.ICustomerService>
+2017-08-19 19:29:00,174 INFO [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] - <Creating Service {http://service.bos.itcast.cn/}IOrderRemoteServiceService from class cn.itcast.bos.service.IOrderRemoteService>
+2017-08-19 19:29:00,174 INFO [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] - <Creating Service {http://service.bos.itcast.cn/}IOrderRemoteServiceService from class cn.itcast.bos.service.IOrderRemoteService>
